@@ -1,10 +1,16 @@
 package com.maochong.xiaojun.cglib;
 
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.MethodProxy;
+
+import java.lang.reflect.Method;
+
 /**
  * @auther jokin
  * @data 2018/5/27 0027 13:46
  */
-public class CglibMeipo implements MethodInterceptor{
+public class CglibMeipo implements MethodInterceptor {
 
     public Object getInstance(Class<?> clazz) throws  Exception{
 
