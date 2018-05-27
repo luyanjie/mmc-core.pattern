@@ -20,9 +20,11 @@ public class RegisterMap {
         if(StringUtils.isEmpty(name)){
             name = RegisterMap.class.getName();
         }
-        if(register.get(name) == null){
+        if(!register.containsKey(name)){
             try {
-                register.put(name, new RegisterMap());
+                RegisterMap obj = new RegisterMap();
+                register.put(name, obj);
+                return obj;
             }catch(Exception e){
                 e.printStackTrace();
             }
