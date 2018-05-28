@@ -13,7 +13,8 @@
       <module>pattern-singleton</module>
       <module>pattern-prototype</module>
       <module>pattern-proxy</module>
-    <module>pattern-stratrgy</module>
+    <module>pattern-strategy</module>
+      <module>pattern-template</module>
   </modules>
 
   <name>mmc-core-pattern</name>
@@ -22,8 +23,8 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
@@ -40,6 +41,12 @@
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-lang3</artifactId>
         <version>3.7</version>
+      </dependency>
+      <!-- fastjson依赖添加-->
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>fastjson</artifactId>
+        <version>1.2.31</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
