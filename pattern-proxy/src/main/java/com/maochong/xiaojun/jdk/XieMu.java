@@ -3,8 +3,8 @@ package com.maochong.xiaojun.jdk;
 import com.maochong.xiaojun.Person;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 13:33
+ * @author jokin
+ * @date 2018/5/27 0027 13:33
  * 媒婆代找对象
  */
 public class XieMu implements Person {

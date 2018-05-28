@@ -1,12 +1,10 @@
 package com.maochong.xiaojun.custom;
 
-import com.maochong.xiaojun.jdkproxy.JdkProxy;
-
 import java.lang.reflect.Method;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 21:46
+ * @author jokin
+ * @date 2018/5/27 0027 21:46
  */
 public class JdkCustom implements MInvocationHandler {
 

@@ -14,8 +14,8 @@ import java.lang.reflect.Parameter;
 import java.util.Arrays;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 20:54
+ * @author jokin
+ * @date 2018/5/27 0027 20:54
  * 自己实现JDK动态代理
  */
 public class MProxy {

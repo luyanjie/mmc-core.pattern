@@ -5,8 +5,8 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 14:28
+ * @author jokin
+ * @date 2018/5/27 0027 14:28
  */
 public class JdkProxy implements InvocationHandler {
     private Object targetObject;

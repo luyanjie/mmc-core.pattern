@@ -1,8 +1,8 @@
 package com.maochong.xiaojun.jdkproxy;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 14:27
+ * @author jokin
+ * @date 2018/5/27 0027 14:27
  */
 public class CalculatorImpl implements Calculator {
     @Override

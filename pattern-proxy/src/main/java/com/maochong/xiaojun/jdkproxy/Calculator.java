@@ -1,8 +1,8 @@
 package com.maochong.xiaojun.jdkproxy;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 14:26
+ * @author jokin
+ * @date 2018/5/27 0027 14:26
  */
 public interface Calculator {
     //加法运算

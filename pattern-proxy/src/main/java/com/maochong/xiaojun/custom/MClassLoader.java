@@ -3,8 +3,8 @@ package com.maochong.xiaojun.custom;
 import java.io.*;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 20:55
+ * @author jokin
+ * @date 2018/5/27 0027 20:55
  */
 public class MClassLoader extends ClassLoader {
     private File classPathFile;

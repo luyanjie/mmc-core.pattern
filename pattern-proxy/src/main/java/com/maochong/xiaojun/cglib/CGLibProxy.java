@@ -7,8 +7,8 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 14:17
+ * @author jokin
+ * @date 2018/5/27 0027 14:17
  */
 public class CGLibProxy implements MethodInterceptor {
     private int useTimes;

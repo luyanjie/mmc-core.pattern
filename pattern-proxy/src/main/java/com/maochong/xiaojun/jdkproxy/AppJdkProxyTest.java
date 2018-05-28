@@ -5,8 +5,8 @@ import sun.misc.ProxyGenerator;
 import java.io.FileOutputStream;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 14:33
+ * @author jokin
+ * @date 2018/5/27 0027 14:33
  * jdk动态代理
  */
 public class AppJdkProxyTest {

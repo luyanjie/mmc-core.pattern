@@ -3,8 +3,8 @@ package com.maochong.xiaojun.jdk;
 import com.maochong.xiaojun.Person;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 13:40
+ * @author jokin
+ * @date 2018/5/27 0027 13:40
  */
 public class AppJdkTest {
     public static void main(String[] args) {

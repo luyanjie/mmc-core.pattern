@@ -1,8 +1,8 @@
 package com.maochong.xiaojun.custom;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 21:04
+ * @author jokin
+ * @date 2018/5/27 0027 21:04
  */
 public interface MCalculator {
     //加法运算

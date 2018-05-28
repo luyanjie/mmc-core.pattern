@@ -7,11 +7,13 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- * @auther jokin
- * @data 2018/5/27 0027 13:39
+ * @author jokin
+ * @date 2018/5/27 0027 13:39
  */
 public class JDK58 implements InvocationHandler {
-    //被代理的对象，把引用给保存下来
+    /**
+     * 被代理的对象，把引用给保存下来
+     * */
     private Person target;
 
     public Object getInstance(Person target) throws Exception{
@@ -19,7 +21,6 @@ public class JDK58 implements InvocationHandler {
 
         Class<?> clazz = target.getClass();
 
-        //下半截，老师深入底层来给大家讲解字节码是如何重组的
         //用来生成一个新的对象（字节码重组来实现）
         return Proxy.newProxyInstance(clazz.getClassLoader(),clazz.getInterfaces(),this);
     }
