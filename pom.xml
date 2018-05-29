@@ -15,6 +15,7 @@
       <module>pattern-proxy</module>
     <module>pattern-strategy</module>
       <module>pattern-template</module>
+    <module>pattern-delegate</module>
   </modules>
 
   <name>mmc-core-pattern</name>
